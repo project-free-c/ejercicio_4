@@ -3,6 +3,17 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form method="post" enctype="multipart/form-data" asp-action="UploadFile">
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Archivo xml</label>
+            <input class="form-control" type="file" name="file" accept="text/xml">
+            <button class="btn btn-primary mt-3" type="submit">Subir archivo</button>
+        </div>
+    </form>
+    <form method="post" enctype="multipart/form-data" asp-action="ExportFile" class="mt-5">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nombre del xml" aria-label="Nombre del xml" aria-describedby="button-addon2">
+            <button class="btn btn-primary">Buscar xml</button>
+        </div>
+    </form>
 </div>
