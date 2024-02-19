@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  build                   :
+    container_name        : build
+    build                 : 
+      context             : .
+      dockerfile          : Dockerfile
+      target              : build
+
+  runtime                 :
+    container_name        : runtime
+    build                 : 
+      context             : .
+      dockerfile          : Dockerfile
+      target              : runtime
+    ports                 :
+      - "9999:80"
+    depends_on            :
+      - build
+
+# networks                  :
+#   app_network             :
+#     driver                : bridge
+
+# volumes                   :
+#   mariadb_data            :

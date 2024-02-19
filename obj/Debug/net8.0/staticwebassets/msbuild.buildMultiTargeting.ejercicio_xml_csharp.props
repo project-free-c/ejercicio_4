@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ejercicio_xml_csharp.props" />
+</Project>
