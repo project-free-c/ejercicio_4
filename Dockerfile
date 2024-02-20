@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 as build
     WORKDIR /code
-    COPY ./*.csproj ./
+    COPY ./*.csproj .
     RUN dotnet restore
     COPY . .
     RUN dotnet build "ejercicio_xml_csharp.csproj" -c Release -o build

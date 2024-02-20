@@ -2,6 +2,10 @@ version: "3"
 
 services:
   build                   :
+    depends_on            :
+      - mariadb
+    networks              :
+      - app_network       
     container_name        : build
     build                 : 
       context             : .
@@ -9,6 +13,8 @@ services:
       target              : build
 
   runtime                 :
+    networks              :
+     - app_network       
     container_name        : runtime
     build                 : 
       context             : .
@@ -19,9 +25,20 @@ services:
     depends_on            :
       - build
 
-# networks                  :
-#   app_network             :
-#     driver                : bridge
+  mariadb                 :
+    container_name        : mariadb
+    image                 : niba291/ejercicio_3_databases
+    restart               : always
+    environment           : 
+      MYSQL_ROOT_PASSWORD : 12345
+      MYSQL_DATABASE      : ejercicio_3
+    volumes               :
+      - ./databases:/var/lib/mysql
+    networks              :
+      - app_network
+    ports                 :
+      - "127.0.0.1:9001:3306"
 
-# volumes                   :
-#   mariadb_data            :
+networks                  :
+  app_network             :
+    driver                : bridge

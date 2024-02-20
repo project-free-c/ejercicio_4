@@ -32,3 +32,42 @@ E:\Docker\Docker files\ejercicio_xml_csharp\obj\Debug\net8.0\ejercicio_xml_cshar
 E:\Docker\Docker files\ejercicio_xml_csharp\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Docker\Docker files\ejercicio_xml_csharp\obj\Debug\net8.0\ejercicio_xml_csharp.csproj.AssemblyReference.cache
 E:\Docker\Docker files\ejercicio_xml_csharp\obj\Debug\net8.0\ejercici.C98B21E3.Up2Date
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\appsettings.Development.json
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\appsettings.json
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\ejercicio_xml_csharp.staticwebassets.runtime.json
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\ejercicio_xml_csharp.exe
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\ejercicio_xml_csharp.deps.json
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\ejercicio_xml_csharp.runtimeconfig.json
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\ejercicio_xml_csharp.dll
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\ejercicio_xml_csharp.pdb
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.csproj.AssemblyReference.cache
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.AssemblyInfoInputs.cache
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.AssemblyInfo.cs
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.MvcApplicationPartsAssemblyInfo.cache
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.RazorAssemblyInfo.cache
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.RazorAssemblyInfo.cs
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.sourcelink.json
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets.build.json
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets.development.json
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets\msbuild.ejercicio_xml_csharp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets\msbuild.build.ejercicio_xml_csharp.props
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ejercicio_xml_csharp.props
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ejercicio_xml_csharp.props
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\staticwebassets.pack.json
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\scopedcss\bundle\ejercicio_xml_csharp.styles.css
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\scopedcss\projectbundle\ejercicio_xml_csharp.bundle.scp.css
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercici.C98B21E3.Up2Date
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.dll
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\refint\ejercicio_xml_csharp.dll
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.pdb
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ejercicio_xml_csharp.genruntimeconfig.cache
+C:\xampp\htdocs\ejercicio_4\obj\Debug\net8.0\ref\ejercicio_xml_csharp.dll
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\MySqlConnector.dll
+C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
