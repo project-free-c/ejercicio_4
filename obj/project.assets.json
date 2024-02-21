@@ -760,32 +760,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\esteban\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {}
+    "C:\\Users\\niba\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\ejercicio_4\\ejercicio_xml_csharp.csproj",
+      "projectUniqueName": "E:\\Docker\\Docker files\\ejercicio_xml_csharp\\ejercicio_xml_csharp.csproj",
       "projectName": "ejercicio_xml_csharp",
-      "projectPath": "C:\\xampp\\htdocs\\ejercicio_4\\ejercicio_xml_csharp.csproj",
-      "packagesPath": "C:\\Users\\esteban\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\ejercicio_4\\obj\\",
+      "projectPath": "E:\\Docker\\Docker files\\ejercicio_xml_csharp\\ejercicio_xml_csharp.csproj",
+      "packagesPath": "C:\\Users\\niba\\.nuget\\packages\\",
+      "outputPath": "E:\\Docker\\Docker files\\ejercicio_xml_csharp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\esteban\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\niba\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

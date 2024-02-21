@@ -71,3 +71,8 @@ C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstr
 C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\MySqlConnector.dll
 C:\xampp\htdocs\ejercicio_4\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Docker\Docker files\ejercicio_xml_csharp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Docker\Docker files\ejercicio_xml_csharp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Docker\Docker files\ejercicio_xml_csharp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Docker\Docker files\ejercicio_xml_csharp\bin\Debug\net8.0\MySqlConnector.dll
+E:\Docker\Docker files\ejercicio_xml_csharp\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

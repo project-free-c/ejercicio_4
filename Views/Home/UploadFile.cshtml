@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Registro";
+}
+@model Document
+
+<p>Nombre: @Model.nameFile</p>
+<pre id="jsonContainer"></pre>
+
+<script>
+    var jsonData = @Html.Raw(@Model.document);
+    document.getElementById("jsonContainer").textContent = JSON.stringify(jsonData, null, 2);
+</script>

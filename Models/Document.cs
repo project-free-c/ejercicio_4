@@ -2,17 +2,17 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Newtonsoft.Json.Linq;
 
-
 namespace ejercicio_xml_csharp.Models;
-
+[Table("document")]
 public class Document
 {
     [Key]
     public int? id { get; set; }    
 
-    public string? fileName { get; set; } 
+    [Column("name_file")]
+    public string? nameFile { get; set; } 
 
     [Column(TypeName = "json")] 
-    public JObject? document { get; set; } 
+    public string? document { get; set; } 
 }
 

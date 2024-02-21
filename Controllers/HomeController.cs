@@ -1,8 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ejercicio_xml_csharp.Models;
+using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using System.Xml.Linq;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Text.RegularExpressions;
+using ejercicio_xml_csharp.Models;
+using ejercicio_xml_csharp.Data;
 
 namespace ejercicio_xml_csharp.Controllers;
 
@@ -30,7 +35,19 @@ public class HomeController : Controller
                 var xmlContent  = reader.ReadToEnd();
                 var xmlDocument = XDocument.Parse(xmlContent);
                 var jsonContent = Newtonsoft.Json.JsonConvert.SerializeXNode(xmlDocument);
-                return Content(jsonContent, "application/json");
+                var context     = new AppDbContext();
+                var chars       = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+                var random      = new Random();
+                var name        = new string(Enumerable.Repeat(chars, 10).Select(s => s[random.Next(s.Length)]).ToArray());
+                var document    = new Document { 
+                    nameFile    = name, 
+                    document    = jsonContent.Trim()
+                };
+
+                context.Document.Add(document);
+                context.SaveChanges();
+
+                return View(document);
             }
         }
         
@@ -41,7 +58,20 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult ExportFile(string name)
     {
-        return BadRequest("Mantenimiento.");
+        
+        if (String.IsNullOrEmpty(name))
+        {
+            return BadRequest("Nombre nullo :" + name);
+        }
+
+        var document                = from d in new AppDbContext().Document select d;
+        document                    = document.Where(d => d.nameFile.Contains(name));
+        XDocument xmlDocument       = JsonConvert.DeserializeXNode(document.ToList()[0].document);
+        MemoryStream memoryStream   = new MemoryStream();
+        xmlDocument.Save(memoryStream);
+        memoryStream.Seek(0, SeekOrigin.Begin);
+        return File(memoryStream, "application/xml", name + ".xml");
+        
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

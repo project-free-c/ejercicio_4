@@ -9,7 +9,5 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 as build
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 as runtime
     WORKDIR /code
     COPY --from=build /code/out .
-    EXPOSE 80
-    ENV ASPNETCORE_URLS=http://+:80
-    ENV ASPNETCORE_ENVIRONMENT=Developer
+    ENV ASPNETCORE_ENVIRONMENT=Development
     ENTRYPOINT ["dotnet", "ejercicio_xml_csharp.dll"]
